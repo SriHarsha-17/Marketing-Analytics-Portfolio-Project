@@ -70,4 +70,5 @@ customer_reviews_df['SentimentCategory']=customer_reviews_df.apply(
 customer_reviews_df['SentimentBucket']=customer_reviews_df['SentimentScore'].apply(sentiment_bucket)
 
 print(customer_reviews_df.head())
+
 customer_reviews_df.to_csv('fact_customer_reviews_with_sentiment.csv',index=False)
