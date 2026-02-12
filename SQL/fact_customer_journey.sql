@@ -40,4 +40,5 @@ FROM
 			order by JourneyID) as row_num 
 		from customer_journey
 	) as subquery
+
 where row_num=1
