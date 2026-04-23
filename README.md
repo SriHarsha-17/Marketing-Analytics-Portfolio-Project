@@ -1,6 +1,6 @@
-# 📊 Marketing Analytics Portfolio Project
+# Marketing Analytics Project
 
-## 🔎 Project Overview
+## Project Overview
 
 This project is an end-to-end Marketing Analytics solution built using **SQL, Python, and Power BI**.  
 
@@ -10,7 +10,7 @@ The project follows a **Star Schema Data Modeling approach** with dimension and 
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 - Understand customer behavior across the marketing funnel
 - Analyze customer engagement patterns
@@ -20,15 +20,15 @@ The project follows a **Star Schema Data Modeling approach** with dimension and 
 
 ---
 
-## 🏗 Data Modeling (Star Schema)
+## Data Modeling (Star Schema)
 
 The database is structured using:
 
-### 🗂 Dimension Tables
+### Dimension Tables
 - `dim_customers`
 - `dim_products`
 
-### 📊 Fact Tables
+### Fact Tables
 - `fact_customer_journey`
 - `fact_customer_review`
 - `fact_engagement_data`
@@ -37,11 +37,11 @@ This structure enables scalable reporting and optimized analytical queries.
 
 ---
 
-## 🛠 SQL Implementation
+## SQL Implementation
 
 All data cleaning and transformation were performed using SQL.
 
-### ✔ Data Cleaning Tasks Performed:
+### Data Cleaning Tasks Performed:
 - Removed duplicates
 - Handled null values
 - Standardized categorical fields
@@ -49,7 +49,7 @@ All data cleaning and transformation were performed using SQL.
 - Created primary and foreign key relationships
 - Structured data into dimension and fact tables
 
-### ✔ Analytical Operations:
+### Analytical Operations:
 - Joins between fact and dimension tables
 - Aggregations (COUNT, SUM, AVG)
 - KPI calculations
@@ -57,7 +57,7 @@ All data cleaning and transformation were performed using SQL.
 
 ---
 
-## 🐍 Python Processing
+## Python Processing
 
 Python was used for:
 - Customer review enrichment
@@ -70,13 +70,13 @@ Libraries typically used:
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 - An interactive, multi-page Power BI report was developed to provide structured marketing performance insights.
 
 - The report consists of 4 dashboards, each focusing on a specific analytical area.
 
-## 🟢 Executive Overview
+## Executive Overview
 Provides a high-level marketing performance summary with dynamic filters.
 
 ### Filters Available:
@@ -109,7 +109,7 @@ Engagement Trends (Views, Clicks, Likes)
 
 Rating Trend Analysis
 
-## 🔵 Conversion Details
+## Conversion Details
 
 Focuses on customer journey and product-level conversion performance.
 
@@ -131,7 +131,7 @@ Analyze drop-off stages
 
 Evaluate seasonal conversion patterns
 
-## 🟣 Social Media Details
+## Social Media Details
 
 Analyzes engagement performance across marketing channels.
 
@@ -159,7 +159,7 @@ Identify engagement trends
 
 Evaluate product-level interaction patterns
 
-## 🟠 Rating & Sentiment Analysis
+## Rating & Sentiment Analysis
 
 Dedicated dashboard for customer satisfaction and review insights.
 
@@ -196,7 +196,7 @@ Identify sentiment distribution patterns
 Analyze correlation between ratings and review volume
 
 
-## 📈 Key Insights
+## Key Insights
 
 - Identified top-performing products based on conversion rate
 
@@ -210,7 +210,7 @@ Analyze correlation between ratings and review volume
 
 - Analyzed relationship between ratings and customer feedback behavior
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - SQL Server – Data cleaning, transformation, and dimensional modeling
 
