@@ -1,4 +1,4 @@
-# Marketing Analytics Project
+# Marketing Analytics Dashboard
 
 ## Project Overview
 
